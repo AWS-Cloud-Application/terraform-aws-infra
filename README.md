@@ -1,5 +1,3 @@
-# terraform-aws-infra
-
 ## Terraform Infrastructure as Code (IaC) with GitHub Actions CI
 
 This project automates the setup of AWS networking infrastructure using Terraform and integrates it with GitHub Actions for Continuous Integration (CI) to ensure proper formatting and validation of Terraform configurations.
@@ -33,3 +31,7 @@ $ aws acm import-certificate \
     --certificate fileb://demo_kishorkashid_me.crt \
     --private-key fileb://demo.key \
     --certificate-chain fileb://demo_kishorkashid_me.ca-bundle
+
+### Infrastrucure architectural diagram-
+
+![infra_architecture](infra_architecture.jpg)
